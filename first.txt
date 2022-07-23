@@ -1,6 +1,6 @@
 git status					:	To check the status of git repository
 git init					:	Create git repository
 git add --a					:	Add all the files to the staging area
-Git commit -m {{message}}		:	Create snapshot/commit
+Git commit -m {{"message"}}		:	Create snapshot/commit
 git log					:	Get the logs of commits
-git add {{filename}}			:	Commit only single file
+git add {{"filename"}}			:	Commit only single file
