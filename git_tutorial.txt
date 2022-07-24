@@ -17,3 +17,4 @@ git diff --staged					:	Compare new commited files of staging area with old comm
 git commit -a -m "Comment}}"			:	Skip staging area and commit directly
 git rm {{filename}}				:	Remove/Delete the file
 git mv {{oldfilename}} {{newfilename}}	:	Rename file
+git rm --cached {{filename}}			:	Stop tracking the file
