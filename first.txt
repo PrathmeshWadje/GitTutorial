@@ -10,3 +10,4 @@ git log					:	Get the logs of commits
 rm -rf .git					:	Delete contents of a folder(repository)
 git clone {{url}}				:	Clone any repository
 git clone {{url}} {{folder name}}	:	Clone any repository and give name
+touch {{filename}}			:	A linux command user to generate file
