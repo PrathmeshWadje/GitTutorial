@@ -26,4 +26,4 @@ git commit -a -m "Comment}}"			:	Skip staging area and commit directly
 git rm {{filename}}				:	Remove/Delete the file
 git mv {{oldfilename}} {{newfilename}}	:	Rename file
 git rm --cached {{filename}}			:	Stop tracking the file
-
+git commit --amend				:	Combine staged changes with the previous commit instead of creating an entire new commit
