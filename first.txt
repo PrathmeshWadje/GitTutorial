@@ -13,4 +13,4 @@ git clone {{url}} {{folder name}}	:	Clone any repository and give name
 touch {{filename}}			:	A linux command user to generate file
 touch .gitignore				:	Ignore any file(have to add {{filename}} in git.ignore folder)
 git diff					:	Compare working directory with staging area and show all the changes
-git diff --staged				:	Compare new commited files with old commited files
+git diff --staged				:	Compare new commited files of staging area with old commited files
