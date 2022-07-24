@@ -10,6 +10,11 @@ git log						:	Get the logs of commits
 git log -p						:	Show all the logs like rename, deleted, etc
 git log --stat					:	Gives short statistics of logs
 git log -3						:	Show latest 3 commits
+git log --pretty=oneline			:	Show all the logs in one line
+git log --pretty=short				: 	Show logs in short
+git log --pretty=full				:	Shows logs with full information
+git log --since=2.days				:	Shows the logs of past 2 days(can write 2.weeks, 2.months, etc)
+git log --pretty=format:{{}}			:	Format logs according to you(Visit https://git-scm.com/docs/git-log for more details)
 rm -rf .git						:	Delete contents of a folder(repository)
 git clone {{url}}					:	Clone any repository
 git clone {{url}} {{folder name}}		:	Clone any repository and give name
@@ -21,3 +26,4 @@ git commit -a -m "Comment}}"			:	Skip staging area and commit directly
 git rm {{filename}}				:	Remove/Delete the file
 git mv {{oldfilename}} {{newfilename}}	:	Rename file
 git rm --cached {{filename}}			:	Stop tracking the file
+
