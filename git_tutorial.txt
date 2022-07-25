@@ -30,4 +30,5 @@ git commit --amend				:	Combine staged changes with the previous commit instead 
 git restore --staged {{file name}}		:	Unstage file
 git checkout -- {{file name}}			:	Undo uncommitted changes
 git checkout -f					:	Go back to previous commit
+git checkout -b {{branch name}}		:	Create new branch
 git push -u origin master			:	Push code to Github
