@@ -22,7 +22,7 @@ touch {{filename}}				:	A linux command user to generate file
 touch .gitignore					:	Ignore any file(have to add {{filename}} in git.ignore folder)
 git diff						:	Compare working directory with staging area and show all the changes
 git diff --staged					:	Compare new commited files of staging area with old commited files
-git commit -a -m "Comment}}"			:	Skip staging area and commit directly
+git commit -a -m "{{Comment}}"		:	Skip staging area and commit directly
 git rm {{filename}}				:	Remove/Delete the file
 git mv {{oldfilename}} {{newfilename}}	:	Rename file
 git rm --cached {{filename}}			:	Stop tracking the file
